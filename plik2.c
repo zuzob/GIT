@@ -26,10 +26,9 @@ int h(string & x)
     hx = 3 * hx + (x[i] - 65);
   return hx;
 }
-
+//tutaj kod dla ga³êzi master
 int main()
 {
-
   string s,p;
   int pp,i,Hp,Hs;
 
@@ -38,7 +37,6 @@ int main()
   s = "";
   for(i = 0; i < N; i++)
     s += zp + rand() % (zk - zp + 1);
-
   // generujemy wzorzec p
 
   p = "";
