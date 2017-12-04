@@ -10,6 +10,7 @@ using namespace std;
 
 // Oblicza sumê podanych liczb
 //----------------------------
+//dodany kod do drugiej ga³êzi
 string dodaj(string & x, string & y)
 {
   string z;
