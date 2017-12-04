@@ -11,7 +11,6 @@
 using namespace std;
 
 // Funkcja haszuj¹ca
-//------------------
 int hf(string s)
 {
   unsigned int h,i;
@@ -69,6 +68,7 @@ int main()
       if(T[j] == s) break;
       j = (j + 1) % 10;
       if(j == h) break;
+	  //dodany kod do drugiej ga³êzi
     }
   }
 
