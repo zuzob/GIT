@@ -1,7 +1,7 @@
 // Generator pseudolosowy Park-Miller
 // Data:   18.04.2008
 // (C)2012 mgr Jerzy Wa³aszek
-//----------------------------------
+//------------------------------------
 
 #include <iostream>
 
@@ -10,11 +10,10 @@ using namespace std;
 unsigned int x0;
 
 // Generuje liczby pseudolosowe
-//-----------------------------
+//-------------------------------
 unsigned int PM_RNG()
 {
   unsigned int xlo,xhi;
-
   xlo = 16807 * (x0 & 0xffff);
   xhi = 16807 * (x0 >> 16);
   xlo += (xhi & 0x7fff) << 16;
