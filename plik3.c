@@ -22,7 +22,7 @@ unsigned int PM_RNG()
   if(xlo > 0x7fffffff) xlo -= 0x7fffffff;
   return (x0 = xlo);
 }
-
+//dodany kod do drugiej ga³êzi
 // Ustawia losowe x0
 //------------------
 void Uprzypadkowij()
