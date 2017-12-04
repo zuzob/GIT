@@ -17,6 +17,7 @@ struct s_set
     int vmin, nmax;
     char * T;
 };
+//dodany kod do drugiej ga³êzi
 
 // Procedura usuwa wszystkie elementy ze zbioru
 //---------------------------------------------
