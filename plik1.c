@@ -16,6 +16,7 @@ int main()
 // odczytujemy wiersz znaków
 
   getline(cin,s);
+ //dodany kod do drugiej ga³êzi
 
 // zamieniamy ma³e litery na du¿e
 // i kodujemy szyfrem cezara
