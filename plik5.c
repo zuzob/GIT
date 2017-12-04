@@ -14,9 +14,9 @@ struct slistEl
   slistEl * next;
   int v;
 };
-
 const int MAXINT = -2147483647;
 
+//---------------------------------
 // Definicja typu obiektowego queue
 //---------------------------------
 class queue
@@ -35,7 +35,7 @@ class queue
 };
 
 //---------------------
-// Metody obiektu queue
+// Metody obiektu queueueueueue
 //---------------------
 
 // Konstruktor - tworzy pust¹ listê
