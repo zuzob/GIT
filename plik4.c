@@ -19,6 +19,7 @@ class stack
 {
   private:
     slistEl * S;   // lista przechowuj¹ca stos
+	//dodany kod do drugiej ga³êzi
 
   public:
     stack();       // konstruktor
