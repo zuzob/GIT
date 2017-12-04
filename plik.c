@@ -28,7 +28,7 @@ void czekaj(void)
   cin.getline(c,1);
   for(int i = 1; i < 500; i++) cout << endl;
 }
-
+//dodany kod do drugiej ga³êzi
 // Funkcja obliczaj¹ca NWD dla dwóch liczb
 //----------------------------------------
 int nwd(int a, int b)
