@@ -1,7 +1,7 @@
 // Symulator Enigmy
 // Data: 22.08.2008
 // (C)2012 mgr Jerzy Wa³aszek
-//-----------------------------
+//---------------------------
 
 #include <iostream>
 #include <string>
@@ -23,7 +23,6 @@ int main()
   int pierscien[3],i,j,k,n,c;
   bool ruch;
   string szyfr,s,lacznica;
-
 
 // odczytujemy konfiguracjê pierœcieni szyfruj¹cych
 
