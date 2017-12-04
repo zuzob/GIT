@@ -46,10 +46,9 @@ int main()
   int i,j,h,c,p;
 
   srand(time(NULL));
-
   // Zerujemy tablicê haszowan¹
   for(i = 0; i < 10; i++) T[i] = "";
-
+//kod dodany na ga³¹Ÿ master
   // Tablicê wype³niamy ³añcuchami
   for(i = 0; i < 10; i++)
   {
