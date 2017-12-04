@@ -14,9 +14,7 @@ struct slistEl
   slistEl * next;
   int v;
 };
-
-class stack
-{
+class stack {
   private:
     slistEl * S;   // lista przechowuj¹ca stos
 
@@ -29,26 +27,26 @@ class stack
     void pop(void);
 };
 
-//---------------------
+//-----------------------
 // Metody obiektu stack
-//---------------------
+//-----------------------
 
 // Konstruktor
-//------------
+//-------------
 stack::stack()
 {
   S = NULL;
 }
 
 // Destruktor - zwalnia tablicê dynamiczn¹
-//----------------------------------------
+//------------------------------------------
 stack::~stack()
 {
   while(S) pop();
 }
 
 // Sprawdza, czy stos jest pusty
-//------------------------------
+//--------------------------------
 bool stack::empty(void)
 {
   return !S;
