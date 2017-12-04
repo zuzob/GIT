@@ -26,7 +26,7 @@ void s_clear(s_set & A)
 }
 
 // Procedura tworzy pusty zbiór
-//-----------------------------
+//-------------------------
 void s_create(s_set & A, int vmin, int vmax)
 {
   A.vmin = vmin;                  // Wype³niamy strukturê A
@@ -34,6 +34,8 @@ void s_create(s_set & A, int vmin, int vmax)
   A.T = new char [A.nmax + 1];    // Tworzymy tablicê dynamiczn¹ na elementy
   s_clear(A);                     // Zbiór zerujemy
 }
+
+//kod dodany na ga³¹Ÿ master
 
 // Procedura oblicza sumê zbiorów A i B.
 // Wynik umieszcza w zbiorze C
