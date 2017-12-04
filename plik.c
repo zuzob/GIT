@@ -22,19 +22,18 @@ using namespace std;
 void czekaj(void)
 {
   char c[1];
-
   cout << "\nZapisz te dane\n\n";
   cin.getline(c,1);
   cin.getline(c,1);
   for(int i = 1; i < 500; i++) cout << endl;
 }
 
-// Funkcja obliczaj¹ca NWD dla dwóch liczb
+// F-cja obliczaj¹ca NWD dla dwóch liczb
 //----------------------------------------
 int nwd(int a, int b)
 {
   int t;
-
+//kod dodany na ga³¹Ÿ master
   while(b != 0)
   {
     t = b;
