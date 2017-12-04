@@ -34,9 +34,7 @@ int main()
   int pp,i,Hp,Hs;
 
   srand((unsigned)time(NULL));
-
   // generujemy ³añcuch s
-
   s = "";
   for(i = 0; i < N; i++)
     s += zp + rand() % (zk - zp + 1);
