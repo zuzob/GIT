@@ -16,6 +16,7 @@ struct slistEl
 };
 
 const int MAXINT = -2147483647;
+//dodany kod do drugiej ga³êzi
 
 // Definicja typu obiektowego queue
 //---------------------------------
