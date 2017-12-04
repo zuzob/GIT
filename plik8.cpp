@@ -52,9 +52,9 @@ string dodaj(string & x, string & y)
   return z;  // zwracamy wynik dodawania
 }
 
-//********************
-//** PROGRAM G£ÓWNY **
-//********************
+//**********************
+//*** PROGRAM G£ÓWNY ***
+//**********************
 
 int main()
 {
