@@ -24,7 +24,7 @@ int main()
   bool ruch;
   string szyfr,s,lacznica;
 
-
+//dodany kod do drugiej ga³êzi
 // odczytujemy konfiguracjê pierœcieni szyfruj¹cych
 
   cin >> n;
@@ -34,9 +34,7 @@ int main()
     pierscien[i] = (n % 10) - 1; // numer pierœcienia na i-tej pozycji
     n /= 10;
   }
-
 // odczytujemy po³o¿enia pocz¹tkowe pierœcieni
-
   cin >> szyfr;
   for(i = 0; i < szyfr.length(); i++) szyfr[i] = toupper(szyfr[i]);
 
